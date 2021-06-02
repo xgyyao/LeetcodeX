@@ -20,4 +20,3 @@ class Solution(object):
         del nums[Pslow+1:]
         return len(nums)
 
-    
