@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: bool
         """
         len_row, len_col = len(matrix), len(matrix[0])
-        l,r = 0, len_row - 1
+        l, r = 0, len_row - 1
         while(l<r):
             mid = (l+r+1)//2
             if matrix[mid][0] <= target:

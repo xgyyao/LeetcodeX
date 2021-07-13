@@ -16,6 +16,6 @@ class Solution(object):
         while odd.next and even.next:
             odd.next = odd.next.next
             even.next = even.next.next
-            odd, even = odd.next,even.next
+            odd, even = odd.next, even.next
         odd.next = even_head
         return head
